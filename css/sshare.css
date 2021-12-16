@@ -1,0 +1,126 @@
+/**
+*
+*
+* Sharer box
+*
+*
+**/
+.rtl{
+    direction: rtl;
+  }
+  .ltr{
+    direction: rtl;
+  }
+.arabic{
+    font-family: 'Noto Kufi Arabic', sans-serif!important;
+  }
+.blackout{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 100vh;
+    background: rgb(0 0 0 / 70%);
+    z-index: 100;
+  }
+  .middle-page{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .sharer-card{
+    background-color: white;
+    border-radius: 2px;
+  }
+  .share-link{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    height: 40px;
+  }
+  .copy-btn{
+  min-width: 70px;
+  border:none;
+  cursor: pointer;
+  }
+  .share-link button:focus,.share-link input:focus { outline: none; }
+  .share-link input::-moz-selection { /* Code for Firefox */
+    color: rgba(30,30,30,1);
+    background: gold;
+  }
+  
+  .share-link input::selection {
+    color: rgba(30,30,30,1);
+    background: gold;
+  }
+  .share-link input{
+    
+    text-align: left;
+    background:#e7e7e7;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 10px;
+    font-weight: lighter;
+    font-size: 14px;
+  }
+  .input-copied{
+  
+    background: #aeff9f!important;
+    border: 1px solid rgb(0 128 0 / 40%)!important;
+    color: rgb(0 90 0)!important;
+  }
+  
+  .social-wh{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-share{
+       
+      display: flex;
+      justify-content: center;
+  }
+  .bg-blue{
+    background-color: #3b5998;
+  }
+  .bg-red{
+    background-color: #E60023;
+  }
+  .bg-insta{
+    background-color: #8a3ab9;
+  }
+  .bg-whats{
+    background-color: #4FCE5D;
+  }
+  .social-share div{
+    transform: scale(1);
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+  }
+  .social-share div:hover{
+    transform: scale(1.1);
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+  }
+  .exit-point{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:999 ;
+  }
+  .share-actual-box{
+    z-index:1000 ;
+  }
+  .social-wh {
+    width: 50px;
+    height: 50px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+.social-share div a{
+    text-decoration: none!important;
+}
