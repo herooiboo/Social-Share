@@ -115,7 +115,7 @@ _just include the project into your project files_
 <!-- CONTACT -->
 ## Contact
 
-Ibrahem Mohamed - [@facebook](https://facebook.com/herooiboo) - iboballack@hotmail.com - @discord : iboo#6049
+Ibrahem Mohamed - [@facebook](https://facebook.com/herooiboo) - i.mohamed.dev@gmail.com - @discord : iboo#6049
 
 Project Link: [https://github.com/herooiboo/Social-Share](https://github.com/herooiboo/Social-Share)
 
